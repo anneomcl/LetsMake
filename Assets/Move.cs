@@ -7,29 +7,38 @@ public class Move : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
+	public float moveSpeed = 10f;
+	public float turnSpeed = 100f;
+	public float jumpSpeed = 10f;
+
+	private Vector3 moveDirection = Vector3.zero;
+
 	// Update is called once per frame
 	void Update () {
 
-		Vector3 pos = transform.position;
+		//Vector3 pos = transform.position;
 
-		if(Input.GetKeyDown(KeyCode.UpArrow))
+		if(Input.GetKey(KeyCode.UpArrow))
 		{
-			pos.z++;
+			transform.Translate (Vector3.forward * moveSpeed * Time.deltaTime);
 		}
-		if(Input.GetKeyDown(KeyCode.DownArrow))
+		if(Input.GetKey(KeyCode.DownArrow))
 		{
-			pos.z--;
+			transform.Translate (-Vector3.forward * moveSpeed * Time.deltaTime);
 		}
-		if(Input.GetKeyDown(KeyCode.LeftArrow))
+		if(Input.GetKey(KeyCode.LeftArrow))
 		{
-			pos.x--;
+			transform.Rotate (Vector3.up * -turnSpeed * Time.deltaTime);
 		}
-		if(Input.GetKeyDown(KeyCode.RightArrow))
+		if(Input.GetKey(KeyCode.RightArrow))
 		{
-			pos.x++;
+			transform.Rotate (Vector3.up * turnSpeed * Time.deltaTime);
 		}
-
-		transform.position = pos;
+		if(Input.GetKey(KeyCode.Space))
+		{
+			transform.Translate (Vector3.up * jumpSpeed * Time.deltaTime);
+		}
+		//transform.position = pos;
 	}
 }

@@ -1,0 +1,25 @@
+AFTER YOU ARE DONE
+
+
+
+1/ Make sure that the game doesn't have any errors
+
+2/ Write a text document (.txt) stating the changes you made (and maybe also some notes, and unfinished work) and put.......
+.
+......it into the "Build Documentation" folder (which is in the "Builds" folder). //See the folder for examples
+
+3/ If you want future developers to take note of something add it to _ReadThisIMPORTANT.txt in the assets folder
+
+4/ Open _gameVersion.txt (see Assets folder) and change the 'X' in Development Build X by ABC to one more than 'X'.....
+
+.....(for example, Development Build 4 changes to Development Build 5)
+ and replace 'ABC' with your twitter username
+5/ Build the game and put it into the "Builds" folder, name it dev_build# (Replace # with the version number you changed X to in the previous step)
+
+6/ Send pull request (Put the version number in the title, copy-paste what you wrote into your build documentation into the description).
+
+7/ Send link to the next person in the list
+
+
+
+NOW YOU ARE COMPLETELY DONE

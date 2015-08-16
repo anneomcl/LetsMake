@@ -1,0 +1,48 @@
+________________________________________________________
+--------------
+Developer Name
+--------------
+adoomedknight (Twitter)
+thedoomedghost (Google+ / Youtube)
+discussedtree (reddit)
+
+________________________________________________________
+
+------------
+CHANGE-LOG
+------------
+
+
++ Added 2 new assets - [Unity Standard Assets, Teleportation Pad]
++ Added 6 new scenes - [MainMenu, GameOver, YellowLevel, PurpleLevel, RedLevel, GreenLevel, BlueLevel]
++ Changed 'Player' from cube to First Person Controller
++ Set up enemy collisions (Insta-death on touch) --> scene change to "GameOver" if enemy touches player (through PlayerCollision.cs attached on Player)
++ Added outer walls
++ Scaled walls and such to adjust to the new character
+- Removed 'floor_End'
++ Added 'FallDeathPlane', which is tagged as enemy (so that the player doesn't have to see herself forever falling into the void)
++ Enabled Yellow Enemy movement behaviour
++ Added a staircase at the end of the 'TutorialBunker' (see Heirarchy) and some flying platforms, one of which contains a staircase to 5 portals which lead to different levels..........
+..........(corresponding to color of portal) - YellowLevel, PurpleLevel, RedLevel, GreenLevel, BlueLevel
++ Changed flooring of "TutorialBunker" :)
++ Added new fonts (see 'Fonts' folder in assets)
++ Added some comments in various scripts
+
+----------------
+UNFINISHED WORK (Keep this in mind while developing)
+----------------
+
+There will be a door besides the portal which only open if you have 5 keys (Yellow, Purple, Red, Green, Blue), the player has to retrieve each key from the corresponding.....
+......levels (YellowLevel, PurpleLevel, RedLevel, GreenLevel, BlueLevel).
+
+--------------
+NOTES
+--------------
+
+/ The old character has been moved to the "Warehouse" (see heirarchy)
+/ Title in the main menu of the game temporarily set to "Death Maze"
+
+
+
+
+

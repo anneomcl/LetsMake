@@ -1,0 +1,5 @@
+Official Subreddit: https://reddit.com/r/TheHappieMakers/
+
+1. There will be a door besides the portal which only open if you have 5 keys (Yellow, Purple, Red, Green, Blue), the player has to retrieve each key from the corresponding.....
+
+......levels (YellowLevel, PurpleLevel, RedLevel, GreenLevel, BlueLevel).

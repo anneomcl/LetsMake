@@ -1,5 +1,9 @@
 # LetsMake
 
+https://www.reddit.com/r/TheHappieMakers/
+https://www.youtube.com/user/TheHappieCat
+https://twitter.com/TheHappieCat
+
 WHAT IS "LET'S MAKE"?
  
 This is a community-made game using Unity3D and C#. People of all skill levels and specialties are welcome: programmers, artists, musicians, anyone. There is no plan. We don't know what it's going to look like. Everyone who wants to participate gets at least 24 hours with the project, and they can contribute whatever they want in that time.

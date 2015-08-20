@@ -1,0 +1,20 @@
+--------------
+Developer Name
+-------------- 
+xWilQ (Twitter)
+ xWilQ (Google+ / Youtube)
+ xWilQ (reddit)
+
+
+
+
+------------
+CHANGE-LOG
+------------
+
+
+
+Didn't do that much added a "Level timer" i think it would be fun to know how fast you could beat levels (This need to be worked on later int the game).
+Started making the "Blue level".
+Added tutorial text. Changed the fonts on title and game over screens.
+Some useful stuff like you can close the game by pressing Esc.

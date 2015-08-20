@@ -1,0 +1,129 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:D:/Software/Unity/Editor/Data/Managed/UnityEngine.dll
+-r:D:/Software/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+-r:D:/Software/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+-r:D:/Software/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+-r:D:/Software/Unity/Editor/Data/Managed/UnityEditor.dll
+-r:D:/Software/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll
+-define:UNITY_5_1_2
+-define:UNITY_5_1
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PHYSICS_PHYSX3
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_AUDIOMIXER_SUSPEND
+-define:ENABLE_EDITOR_METRICS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:CROSS_PLATFORM_INPUT
+"Assets/ImportedAssets/standard assets/Utility/ActivateTrigger.cs"
+"Assets/ImportedAssets/standard assets/Utility/AutoMobileShaderSwitch.cs"
+"Assets/ImportedAssets/standard assets/Utility/AutoMoveAndRotate.cs"
+"Assets/ImportedAssets/standard assets/Utility/CameraRefocus.cs"
+"Assets/ImportedAssets/standard assets/Utility/CurveControlledBob.cs"
+"Assets/ImportedAssets/standard assets/Utility/DragRigidbody.cs"
+"Assets/ImportedAssets/standard assets/Utility/DynamicShadowSettings.cs"
+"Assets/ImportedAssets/standard assets/Utility/FOVKick.cs"
+"Assets/ImportedAssets/standard assets/Utility/FPSCounter.cs"
+"Assets/ImportedAssets/standard assets/Utility/FollowTarget.cs"
+"Assets/ImportedAssets/standard assets/Utility/ForcedReset.cs"
+"Assets/ImportedAssets/standard assets/Utility/LerpControlledBob.cs"
+"Assets/ImportedAssets/standard assets/Utility/ObjectResetter.cs"
+"Assets/ImportedAssets/standard assets/Utility/ParticleSystemDestroyer.cs"
+"Assets/ImportedAssets/standard assets/Utility/PlatformSpecificContent.cs"
+"Assets/ImportedAssets/standard assets/Utility/SimpleActivatorMenu.cs"
+"Assets/ImportedAssets/standard assets/Utility/SimpleMouseRotator.cs"
+"Assets/ImportedAssets/standard assets/Utility/SmoothFollow.cs"
+"Assets/ImportedAssets/standard assets/Utility/TimedObjectActivator.cs"
+"Assets/ImportedAssets/standard assets/Utility/TimedObjectDestructor.cs"
+"Assets/ImportedAssets/standard assets/Utility/WaypointCircuit.cs"
+"Assets/ImportedAssets/standard assets/Utility/WaypointProgressTracker.cs"
+"Assets/ImportedAssets/standard assets/characters/firstpersoncharacter/Scripts/FirstPersonController.cs"
+"Assets/ImportedAssets/standard assets/characters/firstpersoncharacter/Scripts/HeadBob.cs"
+"Assets/ImportedAssets/standard assets/characters/firstpersoncharacter/Scripts/MouseLook.cs"
+"Assets/ImportedAssets/standard assets/characters/firstpersoncharacter/Scripts/RigidbodyFirstPersonController.cs"
+"Assets/ImportedAssets/standard assets/characters/rollerball/Scripts/Ball.cs"
+"Assets/ImportedAssets/standard assets/characters/rollerball/Scripts/BallUserControl.cs"
+"Assets/ImportedAssets/standard assets/characters/thirdpersoncharacter/Scripts/AICharacterControl.cs"
+"Assets/ImportedAssets/standard assets/characters/thirdpersoncharacter/Scripts/ThirdPersonCharacter.cs"
+"Assets/ImportedAssets/standard assets/characters/thirdpersoncharacter/Scripts/ThirdPersonUserControl.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/AxisTouchButton.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/ButtonHandler.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/CrossPlatformInputManager.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/InputAxisScrollbar.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/Joystick.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/MobileControlRig.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/TiltInput.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/TouchPad.cs"
+"Assets/ImportedAssets/standard assets/crossplatforminput/Scripts/VirtualInput.cs"
+"Assets/ImportedAssets/teleportation pad/CustomTeleporter.cs"
+Assets/Scripts/Enemies/YellowMovement.cs
+Assets/Scripts/GameHandler.cs
+Assets/Scripts/LevelTimer.cs
+Assets/Scripts/Player/PlayerCollision.cs
+Assets/Scripts/Spin.cs
+Assets/Scripts/Teleports/BlueTeleport.cs
+Assets/Scripts/Teleports/GreenTeleport.cs
+Assets/Scripts/Teleports/PurpleTeleport.cs
+Assets/Scripts/Teleports/RedTeleport.cs
+Assets/Scripts/Teleports/YellowTeleport.cs
+Assets/Scripts/UI/UIManagerScript.cs
+"Assets/Scripts/obsolete(warehouse)/Player_Move.cs"
+"Assets/Scripts/obsolete(warehouse)/movement.cs"
+Assets/TextureTilingController.cs
+-r:D:\Software\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll
+-r:D:\Software\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll

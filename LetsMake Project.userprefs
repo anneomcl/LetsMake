@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_gameVersion.txt">
+    <Files>
+      <File FileName="Assets\Scripts\Enemies\YellowMovement.cs" Line="33" Column="2" />
+      <File FileName="Assets\_ReadThis - IMPORTANT.txt" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spin.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelTimer.cs" Line="28" Column="6" />
+      <File FileName="Assets\_gameVersion.txt" Line="1" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,137 @@
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6700 Series (ID=0x673e)
+    Vendor:   ATI
+    VRAM:     1010 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.069 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\GameProjects\LetsMake-master\LetsMake-master(dev_build4 by adoomedknight)\Builds\Development Builds\dev_build5_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1660 -> priority: 1 
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.570598 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 562.
+Total: 0.388824 ms (FindLiveObjects: 0.066675 ms CreateObjectMapping: 0.022111 ms MarkObjects: 0.288471 ms  DeleteObjects: 0.010545 ms)
+
+HIT
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.019983 ms
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 241.
+Total: 0.664029 ms (FindLiveObjects: 0.048645 ms CreateObjectMapping: 0.034017 ms MarkObjects: 0.340519 ms  DeleteObjects: 0.239486 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.592591 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 562.
+Total: 0.402091 ms (FindLiveObjects: 0.064293 ms CreateObjectMapping: 0.021771 ms MarkObjects: 0.296636 ms  DeleteObjects: 0.018369 ms)
+
+HIT
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.051279 ms
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 239.
+Total: 1.258322 ms (FindLiveObjects: 0.074499 ms CreateObjectMapping: 0.071097 ms MarkObjects: 0.651442 ms  DeleteObjects: 0.458901 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.504145 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 562.
+Total: 0.439511 ms (FindLiveObjects: 0.072117 ms CreateObjectMapping: 0.022451 ms MarkObjects: 0.327932 ms  DeleteObjects: 0.015648 ms)
+
+HIT
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+HIT
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.014880 ms
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 239.
+Total: 1.242674 ms (FindLiveObjects: 0.071437 ms CreateObjectMapping: 0.071437 ms MarkObjects: 0.650082 ms  DeleteObjects: 0.447675 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.689922 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 239.
+Total: 0.769825 ms (FindLiveObjects: 0.061232 ms CreateObjectMapping: 0.047284 ms MarkObjects: 0.637835 ms  DeleteObjects: 0.020750 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.586808 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 562.
+Total: 0.406514 ms (FindLiveObjects: 0.077901 ms CreateObjectMapping: 0.021771 ms MarkObjects: 0.292213 ms  DeleteObjects: 0.013607 ms)
+
+TeleHit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.932897 ms
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 380.
+Total: 0.604158 ms (FindLiveObjects: 0.057490 ms CreateObjectMapping: 0.034698 ms MarkObjects: 0.337797 ms  DeleteObjects: 0.172470 ms)
+
+HIT
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+HIT
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.326698 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 239.
+Total: 0.996724 ms (FindLiveObjects: 0.076540 ms CreateObjectMapping: 0.050006 ms MarkObjects: 0.655525 ms  DeleteObjects: 0.211931 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.201852 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 239.
+Total: 0.757238 ms (FindLiveObjects: 0.057830 ms CreateObjectMapping: 0.047284 ms MarkObjects: 0.625249 ms  DeleteObjects: 0.024833 ms)
+

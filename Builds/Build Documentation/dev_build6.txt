@@ -1,0 +1,17 @@
+--------------
+Developer Name
+-------------- 
+madisonjw (twitter) khorvo (reddit & twitch) 
+
+
+------------
+CHANGE-LOG
+------------
+
+
+
+- Threw some of my homemade scifi meshes on the floor, walls, and obstacles. (I know they suck, dealwithit.jpg)
+- Changed the font, size, and position of the UI text to be less intrusive. Added a beware of Zombies text that disappears after 3 seconds.
+- Added in a few zombies with varying animations and collision from OpenGameArt.org. 2spoopy4u.
+
+Note: Sorry if I mucked things up a bit. This is my first time using Unity for literally anything.

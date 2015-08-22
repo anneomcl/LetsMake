@@ -1546,7 +1546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   editorPosition: {x: 0, y: 0}
   editorResourceIcon: 
-  editorWindowOffset: {x: -291, y: -159.090912}
+  editorWindowOffset: {x: 0, y: -49.0909119}
   editorZoomAmount: 1
   editorShowComments: 1
 --- !u!1 &633688229
@@ -4431,7 +4431,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: .5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

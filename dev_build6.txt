@@ -1,0 +1,34 @@
+________________________________________________________
+--------------
+Developer Name
+--------------
+Cristian Geambasu(@Cristi_Geambasu)
+
+________________________________________________________
+
+------------
+CHANGE-LOG
+------------
++ Created a better teleporter script. The new teleporter script can point to a scene or to another teleporter
++ Created a loading screen system. From now on call SceneManager.LoadScene and SceneManager.LoadSceneAsync instead of
+Application.LoadLevel and Application.LoadLevelAsync. The loading screen prefab is in Assets/Resources.
++ Imported Nodify(https://bitbucket.org/daemon3000/nodify), a visual scripting plugin for those who are not programmers 
+- Moved the old teleporter scripts to the Obsolete folder
+- Move the UIManagerScript script to the Obsolete folder and replaced it's functionality with Nodify. Open the "MainMenu" scene,
+select the "MenuController" game-object and in the inspector press the "Open In Editor" botton so you can see how the same functionality 
+was implemented in Nodify.
+
+----------------
+UNFINISHED WORK 
+----------------
+
+
+
+--------------
+NOTES
+--------------
+
+Nodify Wiki: https://bitbucket.org/dklompmaker/nodify/wiki/Home
+
+
+

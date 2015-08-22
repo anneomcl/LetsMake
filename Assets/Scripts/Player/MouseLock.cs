@@ -13,7 +13,7 @@ public class MouseLock : MonoBehaviour {
 	void Update () {
 
 		if (Input.GetMouseButtonDown(0)) {
-			Screen.lockCursor = true;
+			Cursor.visible = false;
 			Cursor.lockState = CursorLockMode.Locked;
 		}
 	}

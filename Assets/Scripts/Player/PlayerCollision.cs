@@ -87,7 +87,7 @@ public class PlayerCollision : MonoBehaviour {
 		restartTimer += Time.deltaTime;
 
 		if (restartTimer >= restartDelay) {
-			Screen.lockCursor = false;
+			Cursor.visible = true;
 			Cursor.lockState = CursorLockMode.None;
 			Application.LoadLevel ("GameOver");
 		}

@@ -1,0 +1,9 @@
+﻿using UnityEngine;
+using System.Collections;
+using Nodify.Runtime;
+
+namespace Nodify.Runtime.Nodes
+{
+	[CreateMenu("{menuPath}", "{type}")]
+	public class {className} : GlobalVariable<{type}> { }
+}

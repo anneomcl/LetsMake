@@ -2,11 +2,6 @@
 using System;
 using System.Collections;
 
-public enum TeleportMode
-{
-	Scene = 0, OtherTeleporter = 1
-}
-
 //	The teleporter has a Mode enum instead of creating a teleporter class hierarchy where each teleporter type is
 //	derived from a base class. The reason for this is that if you want to change the teleporter mode you only have to 
 //	change a variable in the inspector. With a class hierarchy you'd need to remove the component and replace it with another

@@ -1,0 +1,16 @@
+﻿using UnityEngine;
+using System.Collections;
+using Nodify.Runtime;
+
+namespace Nodify.Runtime.Nodes
+{
+	[CreateMenu("{menuPath}", "{displayName}" {icon})]
+	public class {className} : Node 
+	{
+		protected override void OnExecute()
+		{
+			// fire exposed method: OnComplete();
+			base.OnExecute();
+		}
+	}
+}

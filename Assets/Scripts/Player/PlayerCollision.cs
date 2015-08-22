@@ -7,9 +7,12 @@ public class PlayerCollision : MonoBehaviour {
 	public int health = 100;
 	public float timeBetweenDamage = 1f;
 	public float restartDelay = 1f;
-	public AudioClip audioclipDamage;
-	public AudioClip audioclipDeath;
 
+	public AudioClip audioclipDamageFemale;
+	public AudioClip audioclipDeathFemale;
+	public AudioClip audioclipDamageMale;
+	public AudioClip audioclipDeathMale;
+	
 	public Image damageImage;
 	public float flashSpeed = 5f;
 	public Color flashColor = new Color (1f, 0f, 0f, 0.2f);
@@ -21,12 +24,15 @@ public class PlayerCollision : MonoBehaviour {
 	private bool dead;
 	private bool damaged;
 
+	private string gender;
+
 	void Start()
 	{
 		dead = false;
 		timer = 0;
 		audiosource = GetComponent<AudioSource> ();
 		UpdateDamageText ();
+		gender = PlayerPrefs.GetString("gender", "girl");
 	}
 
 	void Update()
@@ -57,7 +63,12 @@ public class PlayerCollision : MonoBehaviour {
 		health -= damage;
 
 		UpdateDamageText ();
-		audiosource.clip = audioclipDamage;
+		if (gender == "girl") {
+			audiosource.clip = audioclipDamageFemale;
+		} else {
+			audiosource.clip = audioclipDamageMale;
+		}
+
 		audiosource.Play ();
 		damaged = true;
 	}
@@ -65,13 +76,19 @@ public class PlayerCollision : MonoBehaviour {
 	void GameOver()
 	{
 		if (!dead) {
-			audiosource.clip = audioclipDeath;
+			if (gender == "girl") {
+				audiosource.clip = audioclipDeathFemale;
+			} else {
+				audiosource.clip = audioclipDeathMale;
+			}
 			audiosource.Play ();
 		}
 		dead = true;
 		restartTimer += Time.deltaTime;
 
 		if (restartTimer >= restartDelay) {
+			Screen.lockCursor = false;
+			Cursor.lockState = CursorLockMode.None;
 			Application.LoadLevel ("GameOver");
 		}
 	}

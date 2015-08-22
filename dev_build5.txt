@@ -1,0 +1,48 @@
+________________________________________________________
+--------------
+Developer Name
+--------------
+Alexander Ocias
+
+________________________________________________________
+
+------------
+CHANGE-LOG
+------------
++ Added some birds
++ Added a bird animation
++ Added some other bird scripts
++ Added some lighting to the main scene
++ Added title font, styling
++ Packed title elements into a vertical group
++ Fixed FPS standard asset drift bug
++ Added cursor locking script to player
++ Imported ProCore Prototype to facilitate level designers
++ Converted existing maze to Probuilder objects.
++ Added basic gender options
++ Added female voice sounds
++ Added dialogue box
++ Added a few NPCs
++ Added InteractionController to connect dialogue to NPCs
++ Added reticle (indicates interaction status too)
++ Added a bunch of little level geometry
++ Put Game Over screen elements into a vertical group
++ Added some colour to the Game Over screen
+- Removed unnecessary capsule collider and rigidbody from player
+
+----------------
+UNFINISHED WORK 
+----------------
+
+
+
+--------------
+NOTES
+--------------
+
+Feel free to expand on the level geometry I put together in whatever way you like.
+
+Also, it's a shame we switch to the old unity FPS controller instead of Happie's little box control thing, it seemed cool.
+
+
+

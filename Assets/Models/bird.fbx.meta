@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: dc155de92387f4f0ba4aad6e4610b858
+timeCreated: 1440141781
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Beak
+    100004: BeakEnd
+    100006: Head
+    100008: l_b_toe
+    100010: l_b_toe_end
+    100012: l_f_toe
+    100014: l_f_toe_end
+    100016: l_foot
+    100018: l_hip
+    100020: l_knee
+    100022: r_b_toe
+    100024: r_b_toe_end
+    100026: r_f_toe
+    100028: r_f_toe_end
+    100030: r_foot
+    100032: r_hip
+    100034: r_knee
+    100036: Spine
+    100038: Symmetry
+    100040: Tail
+    100042: TailEnd
+    100044: Waist
+    100046: l_foot_pole
+    100048: r_foot_pole
+    400000: //RootNode
+    400002: Beak
+    400004: BeakEnd
+    400006: Head
+    400008: l_b_toe
+    400010: l_b_toe_end
+    400012: l_f_toe
+    400014: l_f_toe_end
+    400016: l_foot
+    400018: l_hip
+    400020: l_knee
+    400022: r_b_toe
+    400024: r_b_toe_end
+    400026: r_f_toe
+    400028: r_f_toe_end
+    400030: r_foot
+    400032: r_hip
+    400034: r_knee
+    400036: Spine
+    400038: Symmetry
+    400040: Tail
+    400042: TailEnd
+    400044: Waist
+    400046: l_foot_pole
+    400048: r_foot_pole
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Symmetry
+    7400000: Idle
+    9500000: //RootNode
+    13700000: Symmetry
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Symmetry
+        weight: 1
+      - path: Waist
+        weight: 1
+      - path: Waist/l_hip
+        weight: 1
+      - path: Waist/l_hip/l_knee
+        weight: 1
+      - path: Waist/l_hip/l_knee/l_foot
+        weight: 1
+      - path: Waist/l_hip/l_knee/l_foot/l_b_toe
+        weight: 1
+      - path: Waist/l_hip/l_knee/l_foot/l_b_toe/l_b_toe_end
+        weight: 1
+      - path: Waist/l_hip/l_knee/l_foot/l_f_toe
+        weight: 1
+      - path: Waist/l_hip/l_knee/l_foot/l_f_toe/l_f_toe_end
+        weight: 1
+      - path: Waist/r_hip
+        weight: 1
+      - path: Waist/r_hip/r_knee
+        weight: 1
+      - path: Waist/r_hip/r_knee/r_foot
+        weight: 1
+      - path: Waist/r_hip/r_knee/r_foot/r_b_toe
+        weight: 1
+      - path: Waist/r_hip/r_knee/r_foot/r_b_toe/r_b_toe_end
+        weight: 1
+      - path: Waist/r_hip/r_knee/r_foot/r_f_toe
+        weight: 1
+      - path: Waist/r_hip/r_knee/r_foot/r_f_toe/r_f_toe_end
+        weight: 1
+      - path: Waist/Spine
+        weight: 1
+      - path: Waist/Spine/Head
+        weight: 1
+      - path: Waist/Spine/Head/Beak
+        weight: 1
+      - path: Waist/Spine/Head/Beak/BeakEnd
+        weight: 1
+      - path: Waist/Tail
+        weight: 1
+      - path: Waist/Tail/TailEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 90
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

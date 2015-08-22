@@ -79,7 +79,7 @@ namespace UnityStandardAssets.Utility
         private IEnumerator ReloadLevel(Entry entry)
         {
             yield return new WaitForSeconds(entry.delay);
-            Application.LoadLevel(Application.loadedLevel);
+			SceneManager.LoadScene(Application.loadedLevelName);
         }
     }
 }

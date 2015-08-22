@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class UIManagerScript : MonoBehaviour {
+public class UIManagerScript : MonoBehaviour 
+{
+	public string gameScene = "MazeRoom_01";
 
 	public void StartGameAsGirl()
 	{	
@@ -17,7 +19,8 @@ public class UIManagerScript : MonoBehaviour {
 		StartGame ();
 	}
 
-	public void StartGame() {
-		Application.LoadLevel("HelloWorld");
+	public void StartGame() 
+	{
+		SceneManager.LoadSceneAsync(gameScene);
 	}
 }

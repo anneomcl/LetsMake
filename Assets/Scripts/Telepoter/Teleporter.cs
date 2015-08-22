@@ -34,7 +34,7 @@ public class Teleporter : MonoBehaviour
 			if(teleportMode == TeleportMode.Scene)
 			{
 				if (!string.IsNullOrEmpty(sceneName))
-					Application.LoadLevel(sceneName);
+					SceneManager.LoadSceneAsync(sceneName);
 				else 
 					Debug.LogErrorFormat("Teleporter {0} could not be activated. Scene name is not valid.", gameObject.name);
 			}

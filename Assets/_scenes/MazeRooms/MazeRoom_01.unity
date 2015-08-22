@@ -9488,7 +9488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33947836925b4c04289729c8f2e3a168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportMode: 1
+  teleportMode: 0
   sceneName: YellowLevel
   otherTeleporter: {fileID: 1767276828}
   spawnPoint: {fileID: 949569175}
@@ -21144,7 +21144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33947836925b4c04289729c8f2e3a168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportMode: 1
+  teleportMode: 0
   sceneName: PurpleLevel
   otherTeleporter: {fileID: 575733219}
   spawnPoint: {fileID: 940154936}

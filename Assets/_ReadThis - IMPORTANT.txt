@@ -5,3 +5,5 @@ Official Subreddit: https://reddit.com/r/TheHappieMakers/
 ......levels (YellowLevel, PurpleLevel, RedLevel, GreenLevel, BlueLevel).
 
 2. If you need a specific animation for the birds and you don't have Cheetah3D, just list it somewhere here and I might add them later when my turn comes around again.
+
+3. I used the bird model for the companion but it doesn't necessarily have to stay like that. I also couldn't figure out how to get the text for the companion to work

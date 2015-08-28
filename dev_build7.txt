@@ -1,0 +1,23 @@
+________________________________________________________
+--------------
+Developer Name
+--------------
+Sebastian Colorado
+
+________________________________________________________
+
+------------
+CHANGE-LOG
+------------
+
++Added a companion object that will follow the player around
+
+----------------
+UNFINISHED WORK (Keep this in mind while developing)
+----------------
+-Companion dialogue and interaction
+
+--------------
+NOTES
+--------------
+

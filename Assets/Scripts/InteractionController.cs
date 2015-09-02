@@ -29,7 +29,7 @@ public class InteractionController : MonoBehaviour {
 
 		GameObject hitObject = hit.collider.gameObject;
         if (hitObject.GetComponent<NPCDialogue>()) {
-			//reticle.sprite = speechBubbleReticleImage;
+			reticle.sprite = speechBubbleReticleImage;
 			if (Input.GetMouseButtonDown(0)) {
 				dialogueBoxObject.SetActive(true);
 				dialogueBoxObject.SendMessage("DisplayText", hitObject.GetComponent<NPCDialogue>().textToDisplay);

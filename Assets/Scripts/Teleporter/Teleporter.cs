@@ -22,19 +22,14 @@ public class Teleporter : MonoBehaviour
 
 	private bool isExpectingPlayer = false;
 
-	private void OnTriggerEnter(Collider other)
-	{
-		if (other.tag == "Player" && !isExpectingPlayer) 
-		{
-			if(teleportMode == TeleportMode.Scene)
-			{
+	private void OnTriggerEnter (Collider other) {
+		if (other.tag == "Player" && !isExpectingPlayer) {
+			if (teleportMode == TeleportMode.Scene) {
 				if (!string.IsNullOrEmpty(sceneName))
 					SceneManager.LoadSceneAsync(sceneName);
 				else 
 					Debug.LogErrorFormat("Teleporter {0} could not be activated. Scene name is not valid.", gameObject.name);
-			}
-			else
-			{
+			} else {
 				if (otherTeleporter != null)
 					otherTeleporter.ReceivePlayer(other.gameObject);
 				else
@@ -43,16 +38,13 @@ public class Teleporter : MonoBehaviour
 		}
 	}
 
-	private void OnTriggerExit(Collider other)
-	{
+	private void OnTriggerExit (Collider other) {
 		if (other.tag == "Player")
 			isExpectingPlayer = false;
 	}
 
-	public void ReceivePlayer(GameObject player)
-	{
-		if (player != null && !isExpectingPlayer) 
-		{
+	public void ReceivePlayer (GameObject player) {
+		if (player != null && !isExpectingPlayer) {
 			isExpectingPlayer = true;
 			player.transform.position = spawnPoint.position;
 		}

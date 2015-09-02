@@ -4,31 +4,41 @@ using System.Collections;
 
 public class InteractionController : MonoBehaviour {
 
-	[SerializeField] float maxInteractionDistance = 2.0f;
-	[SerializeField] GameObject dialogueBoxObject;
-	[SerializeField] Image reticle;
-	[SerializeField] Sprite defaultReticleImage;
-	[SerializeField] Sprite speechBubbleReticleImage;
+	[SerializeField]
+    private float maxInteractionDistance = 2.0f;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
+	[SerializeField]
+    private GameObject dialogueBoxObject;
+
+	[SerializeField]
+    private Image reticle;
+
+	[SerializeField]
+    private Sprite defaultReticleImage;
+
+	[SerializeField]
+    private Sprite speechBubbleReticleImage;
+
 	// Update is called once per frame
 	void Update () {
 		RaycastHit hit;
-		if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, maxInteractionDistance)) {
-			GameObject hitObject = hit.collider.gameObject;
-			if (hitObject.GetComponent<NPCDialogue>()) {
-				reticle.sprite = speechBubbleReticleImage;
-				if (Input.GetMouseButtonDown (0)) {
-					dialogueBoxObject.SetActive(true);
-					dialogueBoxObject.SendMessage("DisplayText", hitObject.GetComponent<NPCDialogue>().textToDisplay);
-				}
+        if (!isAllowedToInteractWith(out hit)) {
+            reticle.sprite = defaultReticleImage;
+            return;
+        }
+
+		GameObject hitObject = hit.collider.gameObject;
+        if (hitObject.GetComponent<NPCDialogue>()) {
+			reticle.sprite = speechBubbleReticleImage;
+			if (Input.GetMouseButtonDown(0)) {
+				dialogueBoxObject.SetActive(true);
+				dialogueBoxObject.SendMessage("DisplayText", hitObject.GetComponent<NPCDialogue>().textToDisplay);
 			}
-		} else {
-			reticle.sprite = defaultReticleImage;
 		}
 	}
+
+    /// <param name="hit">The object the players is allowed to interact with</param>
+    private bool isAllowedToInteractWith (out RaycastHit hit) {
+        return Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, maxInteractionDistance);
+    }
 }

@@ -7,9 +7,4 @@ public class RandomiseAnimationStartingPoint : MonoBehaviour {
 	void Start () {
 		GetComponent<Animator>().Play(0,-1, Random.value);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

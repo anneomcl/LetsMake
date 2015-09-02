@@ -26,17 +26,15 @@ public class PlayerCollision : MonoBehaviour {
 
 	private string gender;
 
-	void Start()
-	{
+	void Start () {
 		dead = false;
 		timer = 0;
-		audiosource = GetComponent<AudioSource> ();
+		audiosource = GetComponent<AudioSource>();
 		UpdateDamageText ();
 		gender = PlayerPrefs.GetString("gender", "girl");
 	}
 
-	void Update()
-	{
+	void Update () {
 		timer += Time.deltaTime;
 		if (health <= 0) {
 			GameOver();
@@ -49,32 +47,28 @@ public class PlayerCollision : MonoBehaviour {
 		damaged = false;
 	}
 	
-	void OnTriggerEnter(Collider other)
-	{
-		if (other.gameObject.CompareTag("Enemy") && timer >= timeBetweenDamage)
-		{
+	void OnTriggerEnter (Collider other) {
+		if (other.gameObject.CompareTag("Enemy") && timer >= timeBetweenDamage) {
 			Hit (10);			
 		}
 	}
 
-	void Hit(int damage)
-	{
+	void Hit (int damage) {
 		timer = 0;
 		health -= damage;
 
-		UpdateDamageText ();
+		UpdateDamageText();
 		if (gender == "girl") {
 			audiosource.clip = audioclipDamageFemale;
 		} else {
 			audiosource.clip = audioclipDamageMale;
 		}
 
-		audiosource.Play ();
+		audiosource.Play();
 		damaged = true;
 	}
 
-	void GameOver()
-	{
+	void GameOver () {
 		if (!dead) {
 			if (gender == "girl") {
 				audiosource.clip = audioclipDeathFemale;
@@ -93,8 +87,7 @@ public class PlayerCollision : MonoBehaviour {
 		}
 	}
 
-	void UpdateDamageText()
-	{
+	void UpdateDamageText () {
 		if (health < 0) {
 			health = 0;
 		}

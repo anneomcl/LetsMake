@@ -33,6 +33,7 @@ public class InteractionController : MonoBehaviour {
 			if (Input.GetMouseButtonDown(0)) {
 				dialogueBoxObject.SetActive(true);
 				dialogueBoxObject.SendMessage("DisplayText", hitObject.GetComponent<NPCDialogue>().textToDisplay);
+				hitObject.GetComponent<DialogAudio>().startDialog();
 			}
 		}
 	}

@@ -37,7 +37,7 @@ public class PlayerCollision : MonoBehaviour {
 	void Update () {
 		timer += Time.deltaTime;
 		if (health <= 0) {
-			GameOver();
+			//GameOver();
 		}
 		if (damaged) {
 			damageImage.color = flashColor;

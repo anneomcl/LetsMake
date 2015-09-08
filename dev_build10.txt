@@ -1,0 +1,20 @@
+________________________________________________________
+--------------
+Developer Name
+--------------
+Sebastian Colorado
+
+________________________________________________________
+
+------------
+CHANGE-LOG
+------------
+
++ Added capsule collider to the bottom of all the trees in the red level
+----------------
+UNFINISHED WORK
+----------------
++ Started working on a script to have objects wander randomly but didn't manage to get it to work yet
+--------------
+NOTES
+--------------

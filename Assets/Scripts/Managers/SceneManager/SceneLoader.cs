@@ -2,8 +2,8 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class SceneLoader : MonoBehaviour
-{
+public class SceneLoader : MonoBehaviour {
+
     [SerializeField]
     private GameObject loadingScreenPrefab;
 
@@ -13,19 +13,15 @@ public class SceneLoader : MonoBehaviour
     private GameObject loadingScreenInstance;
     private string destinationSceneName;
 
-    private void Awake()
-    {
+    private void Awake () {
 		loadingScreenInstance = null;
 		destinationSceneName = null;
         DontDestroyOnLoad(gameObject);
     }
 
-    private IEnumerator OnLevelWasLoaded()
-    {
-        if(Application.loadedLevelName == loadingScreenScene)
-        {
-            if(string.IsNullOrEmpty(destinationSceneName))
-            {
+    private IEnumerator OnLevelWasLoaded () {
+        if (Application.loadedLevelName == loadingScreenScene) {
+            if(string.IsNullOrEmpty(destinationSceneName)) {
                 Debug.LogError("You forgot to set the destination scene for the scene loader.");
 				GameObject.Destroy(gameObject);
 				yield break;
@@ -38,16 +34,13 @@ public class SceneLoader : MonoBehaviour
 			yield return new WaitForSeconds(0.25f);
 
 			Application.LoadLevelAsync(destinationSceneName);
-        }
-        else
-        {
+        } else {
 			GameObject.Destroy(loadingScreenInstance);
 			GameObject.Destroy(gameObject);
         }
     }
 
-    public void Load(string destinationSceneName)
-    {
+    public void Load (string destinationSceneName) {
         this.destinationSceneName = destinationSceneName;
 		Application.LoadLevel(loadingScreenScene);
     }

@@ -18,3 +18,4 @@ UNFINISHED WORK
 --------------
 NOTES
 --------------
+-There are errors in the player collision script that were there when I recieved the project and I don't know how to fix them.
